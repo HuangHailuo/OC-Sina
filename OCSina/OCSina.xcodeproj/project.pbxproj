@@ -10,6 +10,12 @@
 		43827C9E1BE4DDF800EB2A62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43827C9D1BE4DDF800EB2A62 /* main.m */; };
 		43827CA11BE4DDF800EB2A62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43827CA01BE4DDF800EB2A62 /* AppDelegate.m */; };
 		43827CA91BE4DDF800EB2A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43827CA81BE4DDF800EB2A62 /* Assets.xcassets */; };
+		43827CCD1BE4E69200EB2A62 /* HHLTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43827CCC1BE4E69200EB2A62 /* HHLTabBarVC.m */; };
+		43827CDC1BE4E95200EB2A62 /* HHLDiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43827CDB1BE4E95200EB2A62 /* HHLDiscoverVC.m */; };
+		43827CDF1BE4E96000EB2A62 /* HHLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43827CDE1BE4E96000EB2A62 /* HHLHomeVC.m */; };
+		43827CE21BE4E97400EB2A62 /* HHLMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43827CE11BE4E97400EB2A62 /* HHLMeVC.m */; };
+		43827CE51BE4E98800EB2A62 /* HHLMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43827CE41BE4E98800EB2A62 /* HHLMessageVC.m */; };
+		438B27AF1BE62FA8000B7083 /* HHLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 438B27AE1BE62FA8000B7083 /* HHLPlusButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,18 @@
 		43827CA01BE4DDF800EB2A62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		43827CA81BE4DDF800EB2A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43827CAD1BE4DDF800EB2A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43827CCB1BE4E69200EB2A62 /* HHLTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLTabBarVC.h; sourceTree = "<group>"; };
+		43827CCC1BE4E69200EB2A62 /* HHLTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLTabBarVC.m; sourceTree = "<group>"; };
+		43827CDA1BE4E95200EB2A62 /* HHLDiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLDiscoverVC.h; sourceTree = "<group>"; };
+		43827CDB1BE4E95200EB2A62 /* HHLDiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLDiscoverVC.m; sourceTree = "<group>"; };
+		43827CDD1BE4E96000EB2A62 /* HHLHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLHomeVC.h; sourceTree = "<group>"; };
+		43827CDE1BE4E96000EB2A62 /* HHLHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLHomeVC.m; sourceTree = "<group>"; };
+		43827CE01BE4E97400EB2A62 /* HHLMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLMeVC.h; sourceTree = "<group>"; };
+		43827CE11BE4E97400EB2A62 /* HHLMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLMeVC.m; sourceTree = "<group>"; };
+		43827CE31BE4E98800EB2A62 /* HHLMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLMessageVC.h; sourceTree = "<group>"; };
+		43827CE41BE4E98800EB2A62 /* HHLMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLMessageVC.m; sourceTree = "<group>"; };
+		438B27AD1BE62FA8000B7083 /* HHLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLPlusButton.h; sourceTree = "<group>"; };
+		438B27AE1BE62FA8000B7083 /* HHLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLPlusButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +90,9 @@
 		43827CB31BE4E05300EB2A62 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				43827CBC1BE4E05300EB2A62 /* Main */,
 				43827CB41BE4E05300EB2A62 /* Discover */,
 				43827CB81BE4E05300EB2A62 /* Home */,
-				43827CBC1BE4E05300EB2A62 /* Main */,
 				43827CC01BE4E05300EB2A62 /* Me */,
 				43827CC41BE4E05300EB2A62 /* Message */,
 				43827CC81BE4E05300EB2A62 /* NewFrature */,
@@ -97,6 +115,8 @@
 		43827CB51BE4E05300EB2A62 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				43827CDA1BE4E95200EB2A62 /* HHLDiscoverVC.h */,
+				43827CDB1BE4E95200EB2A62 /* HHLDiscoverVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -128,6 +148,8 @@
 		43827CB91BE4E05300EB2A62 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				43827CDD1BE4E96000EB2A62 /* HHLHomeVC.h */,
+				43827CDE1BE4E96000EB2A62 /* HHLHomeVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +181,10 @@
 		43827CBD1BE4E05300EB2A62 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				43827CCB1BE4E69200EB2A62 /* HHLTabBarVC.h */,
+				43827CCC1BE4E69200EB2A62 /* HHLTabBarVC.m */,
+				438B27AD1BE62FA8000B7083 /* HHLPlusButton.h */,
+				438B27AE1BE62FA8000B7083 /* HHLPlusButton.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -190,6 +216,8 @@
 		43827CC11BE4E05300EB2A62 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				43827CE01BE4E97400EB2A62 /* HHLMeVC.h */,
+				43827CE11BE4E97400EB2A62 /* HHLMeVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -221,6 +249,8 @@
 		43827CC51BE4E05300EB2A62 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				43827CE31BE4E98800EB2A62 /* HHLMessageVC.h */,
+				43827CE41BE4E98800EB2A62 /* HHLMessageVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -330,6 +360,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				43827CA11BE4DDF800EB2A62 /* AppDelegate.m in Sources */,
+				43827CCD1BE4E69200EB2A62 /* HHLTabBarVC.m in Sources */,
+				43827CDC1BE4E95200EB2A62 /* HHLDiscoverVC.m in Sources */,
+				43827CE51BE4E98800EB2A62 /* HHLMessageVC.m in Sources */,
+				43827CE21BE4E97400EB2A62 /* HHLMeVC.m in Sources */,
+				43827CDF1BE4E96000EB2A62 /* HHLHomeVC.m in Sources */,
+				438B27AF1BE62FA8000B7083 /* HHLPlusButton.m in Sources */,
 				43827C9E1BE4DDF800EB2A62 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +500,7 @@
 				43827CB21BE4DDF800EB2A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
